@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-image: url('rain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .heading{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 700;
+    color: rgb(35, 3, 65);
+  }
+  
+  .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  
+  .input-search{
+    width: 100%;
+    max-width: 320px;
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    border: 3px solid black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  
+  
+  .box{
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(49, 16, 44);
+  }
+  
+  .location-city{
+    font-size: 60px;
+    font-family: monospace;
+    margin-bottom: 15px;
+  }
+  
+  .location-date{
+    font-size: 45px;
+    font-family: monospace;
+    font-weight: 300;
+  }
+  
+  .temperature-temp{
+    font-family: monospace;
+    font-size: 90px;
+    font-weight: bold;
+  }
+  
+  span{
+    font-weight: 500;
+  }
+  
+  .temperature-type{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    font-weight: 600;
+  }
+  
+  .temperature-range{
+    font-family: monospace;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  h1{
+    color: rgb(12, 7, 36);
+  }
